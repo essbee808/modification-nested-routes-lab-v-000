@@ -48,7 +48,7 @@ class SongsController < ApplicationController
       artist = Artist.find_by(id: params[:artist_id])
 
     else
-      @song = Song.find(params[:artist_id])
+      @song = Song.find(params[:id])
     end
 
     #@song = Song.find(params[:id])
