@@ -45,7 +45,7 @@ class SongsController < ApplicationController
   def edit
 
     if params[:artist_id]
-      
+      artist = 
     else
 
     end
