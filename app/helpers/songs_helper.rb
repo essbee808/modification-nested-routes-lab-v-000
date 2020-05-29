@@ -1,5 +1,5 @@
 module SongsHelper
-  def artist_select(artist)
-    
+  def artist_select(song)
+    if 
   end
 end
